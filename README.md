@@ -1,4 +1,3 @@
-📄 Código Markdown Listo para Copiar
 # 📚 Actividad 2: Guía de Consultas SQL en Laravel (Query Builder & ORM) ✨
 
 [![Laravel](https://img.shields.io/badge/Framework-Laravel-red?style=flat&logo=laravel)](https://laravel.com/)
