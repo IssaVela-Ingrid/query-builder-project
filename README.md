@@ -46,7 +46,7 @@ git clone [https://github.com/IssaVela-Ingrid/query-builder-project.git](https:/
 cd query-builder-project
 
 # Instalar dependencias de PHP
-composer install
+composer install```
 
 ### 2. Archivo de Entorno (`.env`)
 
@@ -55,7 +55,7 @@ Crea el archivo `.env` y configura la conexión a tu base de datos.
 
 ```bash
 cp .env.example .env
-php artisan key:generate
+php artisan key:generate```
 ### 3.Migraciones y Seeds
 Asegúrate de tener un Seeder que inserte al menos 5 registros en ambas tablas para que las consultas tengan datos de prueba:
 
@@ -65,5 +65,5 @@ Asegúrate de tener un Seeder que inserte al menos 5 registros en ambas tablas p
 php artisan migrate
 
 # Ejecutar el Seeder (inserción de datos de prueba)
-php artisan db:seed
+php artisan db:seed```
 
