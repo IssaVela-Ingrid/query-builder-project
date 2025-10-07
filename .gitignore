@@ -1,0 +1,41 @@
+Ficheros de Logs y de Sistema Operativo
+*.log
+.DS_Store
+Thumbs.db
+
+Directorios de Dependencias
+/node_modules
+/vendor
+
+Archivos de Entorno (¡CRUCIAL!)
+.env
+.env.backup
+.env.production
+/auth.json # Token de Composer
+Homestead.json
+Homestead.yaml
+
+Directorios de Caché y Compilación
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+
+Caché y Archivos de Herramientas de Desarrollo
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+
+Laravel Standard (Aseguramos que estén, aunque ya estaban parcialmente cubiertos)
+/public/hot
+/public/storage
+/Mix-manifest.json
+/bootstrap/cache/*.php
+/vendor/autoload.php
+/composer.lock
