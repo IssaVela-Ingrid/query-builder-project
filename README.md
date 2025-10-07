@@ -56,3 +56,14 @@ Crea el archivo `.env` y configura la conexión a tu base de datos.
 ```bash
 cp .env.example .env
 php artisan key:generate
+### 3.Migraciones y Seeds
+Asegúrate de tener un Seeder que inserte al menos 5 registros en ambas tablas para que las consultas tengan datos de prueba:
+
+```bash
+
+# Ejecutar las migraciones (creación de tablas)
+php artisan migrate
+
+# Ejecutar el Seeder (inserción de datos de prueba)
+php artisan db:seed
+
